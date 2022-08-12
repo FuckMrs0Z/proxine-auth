@@ -1,0 +1,313 @@
+body, html, h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro TC","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #333;
+    background-color: #151723;
+  }
+  
+  a, a:visited {
+    color: #828282;
+    text-decoration: none;
+  }
+  
+  a:hover, a.active {
+    color: #4183c4;
+  }
+  
+  #header {
+    background-color: #2d2d2d;
+    color: #333;
+    text-align: center;
+  }
+  
+  #header a {
+    color: #333;
+  }
+  
+  #body {
+    width: 100%;
+  }
+  
+  #body:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+  
+  #sidebar {
+    float: left;
+    width: 327px;
+    margin-left: 20px;
+  }
+  
+  #sidebar:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+  
+  .col {
+    width: 50%;
+    float: left;
+  }
+  
+  .option-block {
+    padding: 5px;
+  
+  }
+  
+  #bits {
+    width:100px;
+  }
+  
+  .menu {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .menu li a, .menu-group {
+    display: block;
+    min-height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+  }
+  
+  .menu-group {
+    font-weight: bold;
+  }
+  
+  .menu li a:hover, .menu li a.active {
+    padding-left: 19px;
+    border-left: 1px solid #828282
+  }
+  
+  #index:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+  
+  #index .menu {
+    float: left;
+    min-width: 200px;
+  }
+  
+  #main {
+    float: left;
+    width: 100%;
+  }
+  
+  #main h1 {
+
+    color: #38ce3c;
+  }
+  
+  .description {
+    color: #b3b3b3;
+    
+  }
+  
+  .submit {
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+  }
+  
+  #droppable-zone {
+    border: 10px dashed #38ce3c;
+    height: 200px;
+    width: 650px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #droppable-zone.hover {
+    border: 10px dashed #aaa;
+  }
+  
+  #droppable-zone-wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #droppable-zone-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 33px;
+    overflow: hidden;
+    color: #fff;
+  }
+  
+  .droppable-file {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    color: #b3b3b3;
+  }
+  
+
+  
+  ::-webkit-input-placeholder { 
+    text-align: center;
+    line-height: 200px;
+    font-size: 16pt;
+  }
+  ::-moz-placeholder { 
+    text-align: center;
+    line-height: 200px;
+    font-size: 16pt;
+  }
+  :-ms-input-placeholder{ 
+    text-align: center;
+    line-height: 200px;
+    font-size: 16pt;
+  }
+  
+  #footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #777;
+
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  .btn:focus,
+  .btn:active:focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn:active.focus,
+  .btn.active.focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  .btn:hover,
+  .btn:focus,
+  .btn.focus {
+    color: #333;
+    text-decoration: none;
+  }
+  .btn:active,
+  .btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+            box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  }
+  .btn.disabled,
+  .btn[disabled],
+  fieldset[disabled] .btn {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    opacity: .65;
+  }
+  .btn-default {
+    color: #333;
+
+  }
+  .btn-default:hover,
+  .btn-default:focus,
+  .btn-default.focus,
+  .btn-default:active,
+  .btn-default.active,
+  .open > .dropdown-toggle.btn-default {
+    color: #333;
+  
+  }
+  .btn-default:active,
+  .btn-default.active,
+  .open > .dropdown-toggle.btn-default {
+    background-image: none;
+  }
+  .btn-default.disabled,
+  .btn-default[disabled],
+  fieldset[disabled] .btn-default,
+  .btn-default.disabled:hover,
+  .btn-default[disabled]:hover,
+  fieldset[disabled] .btn-default:hover,
+  .btn-default.disabled:focus,
+  .btn-default[disabled]:focus,
+  fieldset[disabled] .btn-default:focus,
+  .btn-default.disabled.focus,
+  .btn-default[disabled].focus,
+  fieldset[disabled] .btn-default.focus,
+  .btn-default.disabled:active,
+  .btn-default[disabled]:active,
+  fieldset[disabled] .btn-default:active,
+  .btn-default.disabled.active,
+  .btn-default[disabled].active,
+  fieldset[disabled] .btn-default.active {
+    background-color: #fff;
+
+  }
+  .btn-default .badge {
+
+    background-color: #333;
+  }
+
+  .proxine {
+      color: #38ce3c;
+  }
+
+  .ninja {
+      color: #006400;
+  }
+
+  .output {
+      width: 300px;
+      position: absolute;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #151723;
+  }
+
+  .intro {
+      position: absolute;
+      bottom: 81%;
+      left: 39%
+  }
+  

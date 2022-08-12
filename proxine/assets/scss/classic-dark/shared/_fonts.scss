@@ -1,0 +1,35 @@
+/* Fonts */
+
+//PT_Sans
+@font-face {
+  font-family: 'Assistant';
+  font-weight: 300;
+  src: url('../../fonts/Assistant/Assistant-Light.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/Assistant/Assistant-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/Assistant/Assistant-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../fonts/Assistant/Assistant-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Assistant';
+  font-weight: 400;
+  src: url('../../fonts/Assistant/Assistant-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/Assistant/Assistant-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/Assistant/Assistant-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../fonts/Assistant/Assistant-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Assistant';
+  font-weight: 600;
+  src: url('../../fonts/Assistant/Assistant-SemiBold.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/Assistant/Assistant-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/Assistant/Assistant-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../fonts/Assistant/Assistant-ExtraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Assistant';
+  font-weight: 700;
+  src: url('../../fonts/Assistant/Assistant-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/Assistant/Assistant-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/Assistant/Assistant-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../fonts/Assistant/Assistant-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+}

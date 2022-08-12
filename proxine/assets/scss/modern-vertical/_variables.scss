@@ -1,0 +1,50 @@
+////////// SIDEBAR ////////
+$sidebar-width-lg: 244px;
+$sidebar-width-mini: 185px;
+$sidebar-width-icon: 70px;
+
+$sidebar-dark-bg: #191c24;
+$sidebar-dark-menu-color: $text-muted;
+$sidebar-dark-menu-active-bg: darken($sidebar-dark-bg, 5%);
+$sidebar-dark-menu-active-color: #ffffff;
+$sidebar-dark-menu-hover-bg: darken($sidebar-dark-bg, 5%);
+$sidebar-dark-menu-hover-color: color(white);
+$sidebar-dark-submenu-color: $sidebar-dark-menu-color;
+$sidebar-dark-submenu-hover-bg: initial;
+$sidebar-dark-submenu-hover-color: #ffffff;
+$sidebar-dark-menu-icon-color: #bba8bff5;
+$sidebar-dark-menu-arrow-color: rgba($text-muted, 0.36);
+
+$sidebar-tinted-bg: #fa424a;
+$sidebar-tinted-menu-color: #ffffff;
+$sidebar-tinted-menu-active-bg: rgba(12, 14, 14, 0.1);
+$sidebar-tinted-menu-hover-bg: rgba(12, 14, 14, 0.1);
+$sidebar-tinted-menu-arrow-color: rgba($sidebar-tinted-menu-color, 0.36);
+
+$sidebar-menu-font-size: 0.9375rem;
+$sidebar-menu-padding-y: 0.8rem;
+$sidebar-menu-padding-x: 1.188rem;
+
+$sidebar-submenu-font-size: 0.855rem;
+$sidebar-submenu-item-padding: 0.5rem 0.35rem;
+
+$sidebar-icon-font-size: 1rem;
+$sidebar-arrow-font-size: .625rem;
+
+$sidebar-profile-bg: transparent;
+$sidebar-profile-padding: .75rem 1.625rem .75rem 1.188rem;
+
+$sidebar-mini-menu-padding: 0.8125rem 1rem 0.8125rem 1rem;
+
+$sidebar-icon-only-menu-padding: .5rem 1.625rem .5rem 1.188rem;
+$sidebar-icon-only-submenu-padding: 0 0 0 1.5rem;
+
+$rtl-sidebar-submenu-padding: 0 1.5rem 0 0;
+
+$icon-only-collapse-width: 190px;
+$icon-only-menu-bg-light: $sidebar-dark-menu-hover-bg;
+$icon-only-menu-bg-dark: $sidebar-dark-menu-hover-bg;
+
+$navbar-box-shadow: 20px 19px 34px -15px rgba(0,0,0,0.5);
+
+///////// SIDEBAR ////////

@@ -1,0 +1,238 @@
+/*-------------------------------------------------------------------
+  ===== Table of Contents =====
+
+  * Bootstrap functions
+  * Template variables
+  * SCSS Compass Functions
+  * Boostrap Main SCSS
+  * Template mixins
+    + Animation Mixins
+    + Background Mixins
+    + Badge Mixins
+    + Button Mixins
+    + Miscellaneous Mixins
+    + BlockQuote Mixins
+    + Cards Mixins
+    + Color Functions Mixins
+    + Tooltips
+    + popovers
+  * Core Styles
+    + Reset Styles
+    + Fonts
+    + Functions
+    + Backgrounds
+    + Typography
+    + Miscellaneous
+    + Footer
+    + Layouts
+    + Utilities
+    + Demo styles
+  * Components
+    + Accordions
+    + Badges
+    + Bootstrap Alerts
+    + Boostrap Progress
+    + Buttons
+    + Breadcrumbs
+    + Cards
+    + Checkboxes and Radios
+    + Dropdowns
+    + Forms
+    + Google maps
+    + Icons
+    + Loaders
+    + Lists
+    + Modals
+    + Pagination
+    + Popover
+    + Preview
+    + Tables
+    + Tabs
+    + Timeline
+    + Todo List
+    + Tooltips
+    + User Profile
+    + Pricing table
+  * Email
+    + Mail Sidebar
+    + Mail List Container
+    + Message Content
+  * Plugin Overrides
+    + Ace Editor
+    + Avgrund Popup
+    + Bootstrap Tour
+    + Chartist
+    + CodeMirror
+    + Colcade
+    + Colorpicker
+    + Context Menu
+    + Data Tables
+    + Datepicker
+    + Dropify
+    + Dropzone
+    + Flot chart
+    + Full Calendar
+    + Google Charts
+    + Icheck
+    + Jquery File Upload
+    + Js-grid
+    + Jvectormap
+    + Light Gallery
+    + Listify
+    + No-ui-slider
+    + Owl-carousel
+    + Progressbar-js
+    + Pws-tabs
+    + Quill Editor
+    + Rating
+    + Select2
+    + Summernote Editor
+    + SweetAlert
+    + Switchery
+    + Tags
+    + TinyMCE Editor
+    + Toast
+    + Typeahead
+    + Wysi Editor
+    + X-editable
+    + Wizard
+  * Landing screens
+    + Auth
+    + Lock Screen
+-------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------*/
+/* === Import Bootstrap functions and variables === */
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+
+/*-------------------------------------------------------------------*/
+/* === Import template variables === */
+@import "../classic-dark/variables";
+@import './variables';
+
+/*-------------------------------------------------------------------*/
+/* === SCSS Compass Functions === */
+@import "../../../node_modules/compass-mixins/lib/compass";
+@import "../../../node_modules/compass-mixins/lib/animate";
+
+/*-------------------------------------------------------------------*/
+/* === Boostrap Main SCSS === */
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+/*-------------------------------------------------------------------*/
+/* === Template mixins === */
+@import "../classic-dark/shared/mixins/misc";
+@import "../classic-dark/shared/mixins/animation";
+@import "../classic-dark/shared/mixins/background";
+@import "../classic-dark/shared/mixins/badges";
+@import "../classic-dark/shared/mixins/blockqoute";
+@import "../classic-dark/shared/mixins/buttons";
+@import "../classic-dark/shared/mixins/breadcrumbs";
+@import "../classic-dark/shared/mixins/cards";
+@import "../classic-dark/shared/mixins/no-ui-slider";
+@import "../classic-dark/shared/mixins/pagination";
+@import "../classic-dark/shared/mixins/popovers";
+@import "../classic-dark/shared/mixins/tooltips";
+
+/*-------------------------------------------------------------------*/
+/* === Core Styles === */
+@import "../classic-dark/shared/reset";
+@import "../classic-dark/shared/fonts";
+@import "../classic-dark/shared/functions";
+@import "../classic-dark/shared/background";
+@import "../classic-dark/shared/typography";
+@import "../classic-dark/shared/misc";
+@import "../classic-dark/shared/footer";
+@import "../classic-dark/shared/utilities";
+@import "../classic-dark/shared/demo";
+
+/*-------------------------------------------------------------------*/
+/* === Components === */
+@import "../classic-dark/shared/components/accordions";
+@import "../classic-dark/shared/components/badges";
+@import "../classic-dark/shared/components/bootstrap-alerts";
+@import "../classic-dark/shared/components/bootstrap-progress";
+@import "../classic-dark/shared/components/buttons";
+@import "../classic-dark/shared/components/breadcrumbs";
+@import "../classic-dark/shared/components/cards";
+@import "../classic-dark/shared/components/checkbox-radio";
+@import "../classic-dark/shared/components/dropdown";
+@import "../classic-dark/shared/components/forms";
+@import "../classic-dark/shared/components/google-maps";
+@import "../classic-dark/shared/components/icons";
+@import "../classic-dark/shared/components/loaders/loaders";
+@import "../classic-dark/shared/components/lists";
+@import "../classic-dark/shared/components/modals";
+@import "../classic-dark/shared/components/pagination";
+@import "../classic-dark/shared/components/portfolio";
+@import "../classic-dark/shared/components/popover";
+@import "../classic-dark/shared/components/preview";
+@import "../classic-dark/shared/components/tables";
+@import "../classic-dark/shared/components/tabs";
+@import "../classic-dark/shared/components/timeline";
+@import "../classic-dark/shared/components/todo-list";
+@import "../classic-dark/shared/components/tooltips";
+@import "../classic-dark/shared/components/user-profile";
+@import "../classic-dark/shared/components/pricing-table";
+
+/*-------------------------------------------------------------------*/
+/* === Email === */
+@import "../classic-dark/shared/components/mail-components/mail-sidebar";
+@import "../classic-dark/shared/components/mail-components/mail-list-container";
+@import "../classic-dark/shared/components/mail-components/messagecontent";
+
+/*-------------------------------------------------------------------*/
+/* === Plugin overrides === */
+@import "../classic-dark/components/plugin-overrides/ace";
+@import "../classic-dark/components/plugin-overrides/avgrund";
+@import "../classic-dark/components/plugin-overrides/chartist";
+@import "../classic-dark/components/plugin-overrides/c3";
+@import "../classic-dark/components/plugin-overrides/codemirror";
+@import "../classic-dark/components/plugin-overrides/colcade";
+@import "../classic-dark/components/plugin-overrides/colorpicker";
+@import "../classic-dark/components/plugin-overrides/context-menu";
+@import "../classic-dark/components/plugin-overrides/data-tables";
+@import "../classic-dark/components/plugin-overrides/datepicker";
+@import "../classic-dark/components/plugin-overrides/dropify";
+@import "../classic-dark/components/plugin-overrides/dropzone";
+@import "../classic-dark/components/plugin-overrides/flot-chart";
+@import "../classic-dark/components/plugin-overrides/full-calendar";
+@import "../classic-dark/components/plugin-overrides/google-charts";
+@import "../classic-dark/components/plugin-overrides/icheck";
+@import "../classic-dark/components/plugin-overrides/jquery-file-upload";
+@import "../classic-dark/components/plugin-overrides/js-grid";
+@import "../classic-dark/components/plugin-overrides/jvectormap";
+@import "../classic-dark/components/plugin-overrides/justguage.scss";
+@import "../classic-dark/components/plugin-overrides/light-gallery";
+@import "../classic-dark/components/plugin-overrides/listify";
+@import "../classic-dark/components/plugin-overrides/morris.scss";
+@import "../classic-dark/components/plugin-overrides/no-ui-slider";
+@import "../classic-dark/components/plugin-overrides/owl-carousel";
+@import "../classic-dark/components/plugin-overrides/progressbar-js";
+@import "../classic-dark/components/plugin-overrides/pws-tabs";
+@import "../classic-dark/components/plugin-overrides/quill";
+@import "../classic-dark/components/plugin-overrides/rating";
+@import "../classic-dark/components/plugin-overrides/select2";
+@import "../classic-dark/components/plugin-overrides/summernote";
+@import "../classic-dark/components/plugin-overrides/sweet-alert";
+@import "../classic-dark/components/plugin-overrides/switchery";
+@import "../classic-dark/components/plugin-overrides/tags";
+@import "../classic-dark/components/plugin-overrides/tinymce";
+@import "../classic-dark/components/plugin-overrides/toast";
+@import "../classic-dark/components/plugin-overrides/typeahead";
+@import "../classic-dark/components/plugin-overrides/wysieditor";
+@import "../classic-dark/components/plugin-overrides/x-editable";
+@import "../classic-dark/components/plugin-overrides/wizard";
+
+/*-------------------------------------------------------------------*/
+/* === Landing screens === */
+@import "../classic-dark/shared/landing-screens/auth";
+@import "../classic-dark/shared/landing-screens/lock-screen";
+
+
+
+@import './navbar';
+@import './sidebar';
+@import './layouts';
+@import '../classic-dark/vertical/vertical-wrapper';

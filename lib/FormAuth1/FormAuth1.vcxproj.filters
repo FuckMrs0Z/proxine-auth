@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{f893b962-b009-4ae8-b6ef-db9d6a4b1aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\typings">
+      <UniqueIdentifier>{d7a85830-a3ea-4114-9a6b-0149571a0647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts\typings\jquery">
+      <UniqueIdentifier>{8f553456-a1e7-4367-b624-e7f5671a17f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hashlib">
+      <UniqueIdentifier>{9adddcf2-b36c-4e92-bf06-43247b118070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="others">
+      <UniqueIdentifier>{3adb3d79-168c-48eb-96b6-b74b5730efba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hashlib\md5.cpp">
+      <Filter>hashlib</Filter>
+    </ClCompile>
+    <ClCompile Include="hashlib\md5wrapper.cpp">
+      <Filter>hashlib</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto\crypto.cpp">
+      <Filter>others</Filter>
+    </ClCompile>
+    <ClCompile Include="others\hwid.cpp">
+      <Filter>others</Filter>
+    </ClCompile>
+    <ClCompile Include="others\auth.cpp">
+      <Filter>others</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Scripts\typings\jquery\jquery.d.ts">
+      <Filter>Scripts\typings\jquery</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hashlib\md5.h">
+      <Filter>hashlib</Filter>
+    </ClInclude>
+    <ClInclude Include="hashlib\md5wrapper.h">
+      <Filter>hashlib</Filter>
+    </ClInclude>
+    <ClInclude Include="others\auth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="others\hwid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="others\xor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto\crypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>others</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
